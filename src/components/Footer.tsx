@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
                 <ul className="mt-4 space-y-4">
                   <li>
                     <a href="#products" className="text-base text-gray-300 hover:text-white">
-                      EmpowerHer
+                      OvSync
                     </a>
                   </li>
                   <li>
@@ -124,7 +124,7 @@ const Footer: React.FC = () => {
             </a>
           </div>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            &copy; 2023 Ovariant, Inc. All rights reserved.
+            &copy; 2024 Ovariant, Inc. All rights reserved.
           </p>
         </div>
       </div>

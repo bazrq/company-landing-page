@@ -1,5 +1,6 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
+import AnimatedWoman from './AnimatedWoman'
 
 const Hero: React.FC = () => {
   return (
@@ -23,7 +24,7 @@ const Hero: React.FC = () => {
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto">
                 Ovariant is revolutionizing women's health and wellness with innovative tech solutions. 
-                Introducing EmpowerHer, our latest app designed to transform your health journey.
+                Introducing OvSync, our latest app designed to transform your health journey.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -31,7 +32,7 @@ const Hero: React.FC = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 md:py-4 md:text-lg md:px-10"
                   >
-                    Get EmpowerHer
+                    Get OvSync
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -48,11 +49,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
-          alt="Woman using Ovariant app"
-        />
+        <AnimatedWoman />
       </div>
     </div>
   )
